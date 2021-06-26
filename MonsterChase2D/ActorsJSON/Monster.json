@@ -1,0 +1,21 @@
+{
+  "name": "Rocky",
+  "initial_position": [ 0.0, -100.0 ],
+
+  "components": {
+    "movable": {
+      "enable_gravity": false,
+      "enable_collision": true,
+      "bounding_box": [ 0, 100, 100, 150 ],
+      "kDrag": 0.04,
+      "mass": 2.0,
+      "initial_velocity": [ 0.0, 0.0 ]
+    },
+
+    "renderable": {
+      "sprite_texture": "data\\BadGuy.dds"
+    }
+
+
+  }
+}

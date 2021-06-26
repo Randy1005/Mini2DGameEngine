@@ -1,0 +1,21 @@
+{
+  "name": "Randy",
+  "initial_position": [ 550.0, -300.0 ],
+
+  "components": {
+    "movable": {
+      "enable_gravity": false,
+      "enable_collision": true,
+      "bounding_box": [ 0, 75, 25, 75 ],
+      "mass": 0.8,
+      "kDrag": 0.03,
+      "initial_velocity": [ -2.0, 1.0 ]
+    },
+
+    "renderable": {
+      "sprite_texture": "data\\GoodGuy.dds"
+    }
+
+
+  }
+}
